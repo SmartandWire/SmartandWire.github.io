@@ -1,1 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart&Wire</title>
+  <style>
+    body {
+      font-family: 'Berlin Sans', Arial, sans-serif;
+      margin: 0;
+      background: #ffffff;
+      color: #39353b;
+    }
 
+
+    
+      .header-banner{ 
+        display: block;
+        max-width: 100%; 
+        height: auto;
+        margin: 0 auto 12px;
+        border-radius: 6px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      }
+    
+    header {
+      background: #39353b;
+      color: #ffffff;
+      text-align: center;
+      padding: 1.5em 0;
+    }
+    nav {
+      background: #39353b;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+    nav a {
+      color: #ffffff;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2em;
+    }
+    h1, h2 {
+      color: #39353b;
+    }
+    footer {
+      background: #39353b;
+      color: #ffffff;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: 2em;
+    }
+  #sidebar { 
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: #39353b;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1;
+  }
+
+  #sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    transition: 0.2s; 
+    font-size: 18px;
+  }
+
+  #sidebar a:hover {
+    background-color: #9d9fa1;
+  }
+  #sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+  }
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #39353b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin: 10px;
+    border-radius: 6px;
+  }
+
+  .openbtn:hover {
+      background-color: #39353b;
+  }
+
+  header { 
+    background: linear-gradient(90deg, #ffffff, #ffffff);
+    color: #39353b;
+    text-align: center;
+    padding: 2cm 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+
+  header p {
+    font-size: 2cm;
+    letter-spacing: 1px;
+  }
+
+  header p {
+    font-size : 1.1cm;
+    opacity: 0.9; 
+  }
+    
+  </style> 
+</head>
+  </head>
+
+  <body>
+  <header>
+    <img src="images/header-image-2.png" alt="smart&wire product banner" class="header-banner">
+    <h1>Smart and Wire</h1>
+    <p>From your hobbies to your work-place</p>
+  </header>
+
+  <div id="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#about.html">About</a>
+    <a href="#services.html">Services</a>
+    <a href="#contact.html">Contact</a>
+  </div> 
+ 
+  <span class="openbtn" onclick="openNav()">☰ Menu</span>
+  
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="Smartandwire@gmail.com">smartandwires@gmail.com</a></p>
+      
+      <p>Location: Birmigham</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Smart&Wire [2025]. All rights reserved.</p>
+  </footer>
+
+<script>
+  function openNav() {
+  document.getElementById("sidebar").style.width = "250px";
+  }
+
+  function closeNav() {
+   document.getElementById("sidebar").style.width = "0";
+  }
+</script>
+</body>
+</html>
