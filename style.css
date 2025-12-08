@@ -1,1 +1,16 @@
-
+.banner {
+  background-image: url('')
+    background-size: cover;
+    background-position: center;
+height: 400px
+    colour: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.banner h1 {
+  background clour rgba(0,0,0,0.5);
+  padding 15px;
+}
