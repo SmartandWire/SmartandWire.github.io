@@ -4,8 +4,11 @@ body {
 
 .hero {
   background-color: #423A39;
-  backgroung-image: url("logo.png");
+  backgroung-image: url("/logo.png");
   color: white;
+
+  Padding-top: 200px;
+  padding-bottom: 200px;
 }
   
   .container {
