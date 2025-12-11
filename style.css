@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+
 .hero {
-  background-color: #000000;
-  backgroung-image: url("logo.png")
+  background-color: #423A39;
+  backgroung-image: url("logo.png");
+  color: white;
+}
+  
+  .container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto; 
+  padding-left: Irem;
+    padding-right: Irem;
+  }
