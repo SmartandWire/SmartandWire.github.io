@@ -4,7 +4,7 @@ body {
 
 .hero {
   background-color: #423A39;
-  backgroung-image: url("/logo.png");
+  backgroung-image: url("images/logo.png");
   color: white;
 
   Padding-top: 200px;
