@@ -1,13 +1,21 @@
 body {
   margin: 0;
   font-family: system-ui;
+}
 
+  .header-banner {
+    display: block;
+    width: 800px;
+    height: auto;
+    max-height: 200px;
+    margin: 20px auto;
+  
 .hero {
   background-color: #423A39;
-  backgroung-image: url("images/logo.png");
+  background-image: url("images/logo.png");
   color: white;
 
-  Padding-top: 200px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
   
@@ -15,6 +23,6 @@ body {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto; 
-  padding-left: Irem;
-    padding-right: Irem;
+  padding-left: 1rem;
+    padding-right: 1rem;
   }
