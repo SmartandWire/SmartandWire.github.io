@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+  .flex-container { 
+    flex direction: column;
+    text-align: centre; }
+}
+
 body {
   margin: 0;
   font-family: system-ui;
@@ -25,3 +31,15 @@ body {
   padding-left: 1rem;
     padding-right: 1rem;
   }
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+    .image-box img {
+      max-width: 200px; 
+      height: auto;
+    }
+.text-box {
+  flex: 1;
+}
