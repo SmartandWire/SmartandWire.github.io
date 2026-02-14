@@ -1,7 +1,8 @@
 @media (max-width: 600px) {
   .flex-container { 
-    flex direction: column;
-    text-align: centre; }
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 body {
@@ -12,8 +13,9 @@ body {
   .header-banner {
     display: block;
     width: 100%;
-    max-height:200px;
+    max-height: 200px;
     object-fit: cover;
+  }
   
 .hero {
   background-color: #423A39;
@@ -31,11 +33,14 @@ body {
   padding-left: 1rem;
     padding-right: 1rem;
   }
+
 .flex-container {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-bottom: 20px;
 }
+
     .image-box img {
       max-width: 200px; 
       height: auto;
