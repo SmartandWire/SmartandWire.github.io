@@ -52,23 +52,3 @@ body {
 }
 }
 
-#image1{
-img{
-  width: 100%;
-  max-width: 400px;
-  object-fit: cover;
-  vertical-align: middle;
-}
-.wrapper {
-padding: 0 15px;
-deisplay: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-around;
-gap: 5rem;
-}
-
-.intro{
-  flex: 1;
-}
-}
