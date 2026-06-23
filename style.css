@@ -1,5 +1,3 @@
-#logo1{
-
 @media (max-width: 600px) {
   .flex-container { 
     flex-direction: column;
@@ -49,6 +47,5 @@ body {
     }
 .text-box {
   flex: 1;
-}
 }
 
