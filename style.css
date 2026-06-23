@@ -1,4 +1,4 @@
-#logo1 {
+#logo1{
 
 @media (max-width: 600px) {
   .flex-container { 
@@ -52,13 +52,14 @@ body {
 }
 }
 
+#image1{
 img{
   width: 100%;
   max-width: 400px;
   object-fit: cover;
   vertical-align: middle;
 }
-.wrapper
+.wrapper {
 padding: 0 15px;
 deisplay: flex;
 flex-wrap: wrap;
@@ -69,4 +70,5 @@ gap: 5rem;
 
 .intro{
   flex: 1;
+}
 }
